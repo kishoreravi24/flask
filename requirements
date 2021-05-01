@@ -9,15 +9,3 @@ MarkupSafe==1.1.1
 psycopg2-binary==2.8.6
 SQLAlchemy==1.4.12
 Werkzeug==1.0.1
-
-//
-pip install pipenv
-pipenv shell
-
-
-//heroku
-heroku create dashboard-name
-heroku create database by install postgresql:
-    heroku addons:create heroku-postgresql:hobby-dev --app kishoreravi24-lexus
-heroku config --app dashboard-name
-pip freeze > requirements
